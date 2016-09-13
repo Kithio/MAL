@@ -1,0 +1,248 @@
+body {
+	background-image: url("http://myanimelist.net/images/userwalls/1722491.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	font-family: Verdana, Arial;
+	font-size: 12px;
+}
+
+br + br {
+	font-size: 0;
+}
+
+#mal\_control\_strip {
+	background: #17141d !important;
+	box-shadow: 0 1px 3px rgba(23, 20, 29, 0.4);
+}
+
+#mal\_control\_strip a {
+	text-decoration: none;
+}
+
+.status\_not\_selected {
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	background-color: whitesmoke;
+}
+
+.status\_not\_selected:first-child {
+	border-left: 1px solid #e0e0e0;
+	border-radius: 4px 0 0 4px;
+}
+
+.status\_not\_selected:last-child {
+	border-right: 1px solid #e0e0e0;
+	border-radius: 0 4px 4px 0;
+}
+
+.status\_not\_selected a {
+	display: block;
+	width: 150px;
+	line-height: 30px;
+	color: #ab3020 !important;
+}
+
+.status\_not\_selected a:hover {
+	color: #e28357 !important;
+}
+
+.status\_not\_selected:hover {
+	background-color: white;
+}
+
+.status\_selected {
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	background-color: white;
+	font-weight: bold;
+}
+
+.status\_selected:first-child {
+	border-left: 1px solid #e0e0e0;
+	border-radius: 4px 0 0 4px;
+}
+
+.status\_selected:last-child {
+	border-right: 1px solid #e0e0e0;
+	border-radius: 0 4px 4px 0;
+}
+
+.status\_selected a {
+	display: block;
+	width: 150px;
+	line-height: 30px;
+	color: #ab3020 !important;
+}
+
+.status\_selected a:hover {
+	color: #e28357 !important;
+}
+
+.status\_selected a, .status\_selected a:hover {
+	color: #541f19 !important;
+}
+
+#list\_surround {
+	width: 920px;
+	margin-left: 10px;
+}
+
+#list\_surround .header\_title {
+	padding: 10px;
+	background-color: white;
+	border-top: 1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+	border-radius: 4px 4px 0 0;
+	font-size: 16px;
+}
+
+#list\_surround .header\_title::before {
+	content: "";
+	display: inline-block;
+	width: 30px;
+	height: 32px;
+	vertical-align: middle;
+	background-image: url("http://i.imgur.com/j5MavxD.png");
+	background-size: 30px 30px;
+}
+
+#list\_surround .table\_header {
+	padding: 2px;
+	background-color: white;
+}
+
+#list\_surround .table\_header:first-child {
+	padding-left: 10px;
+	border-left: 1px solid #e0e0e0;
+}
+
+#list\_surround .table\_header:last-child {
+	border-right: 1px solid #e0e0e0;
+}
+
+#list\_surround .table\_header a, #list\_surround .table\_header span {
+	color: #17141d !important;
+}
+
+#list\_surround .td1 {
+	position: relative;
+	border: none;
+	color: #17141d;
+	background-color: white;
+}
+
+#list\_surround .td1:not(.borderRBL) {
+	line-height: 46px;
+}
+
+#list\_surround .td1:first-child {
+	border-left: 1px solid #e0e0e0;
+}
+
+#list\_surround .td1:last-child {
+	border-right: 1px solid #e0e0e0;
+}
+
+#list\_surround .td2 {
+	position: relative;
+	border: none;
+	color: #17141d;
+	background-color: whitesmoke;
+}
+
+#list\_surround .td2:not(.borderRBL) {
+	line-height: 46px;
+}
+
+#list\_surround .td2:first-child {
+	border-left: 1px solid #e0e0e0;
+}
+
+#list\_surround .td2:last-child {
+	border-right: 1px solid #e0e0e0;
+}
+
+#list\_surround a {
+	color: #ab3020;
+	text-decoration: none;
+}
+
+#list\_surround a:hover {
+	color: #e28357 !important;
+}
+
+#list\_surround a:visited {
+	color: #541f19;
+}
+
+#list\_surround a .table_header {
+	color: #17141d;
+}
+
+#list\_surround .animetitle {
+	position: relative;
+	font-weight: bold;
+}
+
+#list\_surround .animetitle:hover::before {
+	opacity: 1.0;
+}
+
+#list\_surround .animetitle::before {
+	content: "";
+	display: inline-block;
+	width: 100px;
+	height: 46px;
+	vertical-align: middle;
+	margin-left: 10px;
+	background-size: 100% auto;
+	background-position: center;
+	border-radius: 2px;
+	opacity: 0.8;
+}
+
+#list\_surround .animetitle span {
+	margin-left: 10px;
+}
+
+#list\_surround .animetitle + small {
+	line-height: 13px;
+	position: absolute;
+	bottom: 2px;
+	left: 73px;
+	padding: 0px 2px;
+	background-color: #bf0705;
+	border-radius: 3px;
+	color: white;
+}
+
+#list\_surround .borderRBL {
+	padding: 10px 0 10px 20px;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	color: #17141d;
+}
+
+#list\_surround .category\_totals {
+	padding: 10px;
+	background-color: white;
+	border-bottom: 1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+	border-radius: 0 0 4px 4px;
+	color: #17141d;
+	font-size: 11px;
+	text-align: center;
+}
+
+#copyright {
+	padding: 10px;
+	background-color: white;
+	border-top: 1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+	border-radius: 4px 4px 0 0;
+	color: #17141d;
+}
